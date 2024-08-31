@@ -1,7 +1,7 @@
 //HI STAR AGILE I AM HANUMESH
 
 pipeline {
-	agent any
+	agent anyy
 	
 	stages{
 		stage('Checkout Code'){
