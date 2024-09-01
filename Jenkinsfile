@@ -30,7 +30,7 @@ pipeline {
 		deploy adapters: [tomcat9(url: 'http:// 54.206.25.222:8080/', 
                               credentialsId: 'tomcat-ID')], 
                      war: 'target/*.war',
-                     contextPath: 'appp'
+                     contextPath: 'app'
 		}
 		
 	}
